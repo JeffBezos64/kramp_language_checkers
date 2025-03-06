@@ -6,6 +6,7 @@ readme = "README.md"
 dependencies = [
     "nltk",
     "symspellpy",
+    "language-tool-python"
 ]
 classifiers = [
     "Private :: Do Not Upload",

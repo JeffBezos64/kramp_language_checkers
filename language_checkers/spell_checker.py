@@ -5,7 +5,7 @@ from symspellpy.editdistance import LevenshteinFast
 class SpellChecker:
     """Spell checker class used for feature extraction.
     """
-    def __init__(self, max_edit_distance: int=2, dictionary_path: str='language_checkers/frequency_dictionary_en_82_765.txt') -> None:
+    def __init__(self, max_edit_distance: int=2, dictionary_path: str='/csse/research/NativeLanguageID/mthesis-phonological/kramp-language-checkers-project/language_checkers/frequency_dictionary_en_82_765.txt') -> None:
         """Initialize the spell checker.
         Args:
             max_edit_distance (int, optional): The maximum edit distance used for matching corrections. Defaults to 2.

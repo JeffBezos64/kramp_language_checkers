@@ -1,0 +1,6 @@
+language_checkers.egg-info/
+test-venv/
+__pycache__/
+language_checkers/__pycache__/*
+*.pyc
+*.pyo

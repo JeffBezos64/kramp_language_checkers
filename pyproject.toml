@@ -1,0 +1,18 @@
+[project]
+name = "language_checkers"
+description = "This holds the spelling correction and feature extraction code to build the baseline comparison classifier,"
+version = "0.0.0"
+readme = "README.md"
+dependencies = [
+    "nltk",
+    "symspellpy",
+]
+classifiers = [
+    "Private :: Do Not Upload",
+]
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
